@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:seventh_tabbar_part_three/screens/Tabbar1/tabbar_one.dart';
+import 'package:seventh_tabbar_part_three/Tabbar1/tabbar_one.dart';
 void main() {
   runApp(const MyApp());
 }
