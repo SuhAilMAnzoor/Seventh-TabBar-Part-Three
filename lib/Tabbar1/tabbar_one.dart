@@ -22,17 +22,39 @@ class TabbarOneState extends State<TabbarOne> {
       Tab(text: "Calls",)
       ]),
       ),    
-      body: const TabBarView(children: [
+      body: TabBarView(children: [
+        const Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+          Text("Welcome",
+          style: TextStyle(fontSize: 50),),
+          Text(""),
+          Text("Camera Screen",
+          style: TextStyle(fontSize: 40, color: Colors.blue),
+          )
+        ],),
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-          Text("Welcome To"),
-          Text(""),
-          Text("Camera Screen")
-        ],),
-        Text("Chat Screen"),
-        Text("Status Screen"),
-        Text("Calls Screen"),
+          Container(
+            height: MediaQuery.of(context).size.height*0.8,
+            width: MediaQuery.of(context).size.width*0.9,
+            color: Colors.green,            
+            child: const Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+              Text("Welcome",
+              style: TextStyle(fontSize: 40,
+              fontWeight: FontWeight.bold)),
+              Text(""),
+              Text(" Chat Screen",
+              style: TextStyle(fontSize: 50, color: Color.fromARGB(255, 53, 246, 59),),),
+              ]),
+          )  
+          ],
+        ),
+        const Icon(Icons.flight, size: 350,),
+        const Icon(Icons.call,size: 400,),
       ]),
     )
     );
