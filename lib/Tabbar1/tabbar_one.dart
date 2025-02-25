@@ -23,7 +23,13 @@ class TabbarOneState extends State<TabbarOne> {
       ]),
       ),    
       body: const TabBarView(children: [
-        Text("Camera Screen"),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+          Text("Welcome To"),
+          Text(""),
+          Text("Camera Screen")
+        ],),
         Text("Chat Screen"),
         Text("Status Screen"),
         Text("Calls Screen"),
