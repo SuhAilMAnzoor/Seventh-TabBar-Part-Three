@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:seventh_tabbar_part_three/Tabbar1/tabbar_one.dart';
+import 'package:seventh_tabbar_part_three/Tabbar2/tabbar_two.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'WhatsApp App',
+      title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        // useMaterial3: true,
       ),
 
-  home: const TabbarOne()
+  home: const TabbarTwo()
 );
   }
 }
