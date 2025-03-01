@@ -19,9 +19,8 @@ class _TabbarTwoState extends State<TabbarTwo> {
         title: const Text("WhatsApp",
         style: TextStyle(color: Colors.black),),
         bottom: TabBar(
-          indicator: ShapeDecoration(
+          indicator: BoxDecoration(
               color: Colors.deepPurple,
-              shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50)
               ),
               ),
