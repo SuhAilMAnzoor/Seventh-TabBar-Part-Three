@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyTabBarPage extends StatefulWidget {
-  const MyTabBarPage({super.key});
+class OldWhatsappTabbar extends StatefulWidget {
+  const OldWhatsappTabbar({super.key});
 
   @override
   MyTabBarPageState createState() => MyTabBarPageState();
 }
 
-class MyTabBarPageState extends State<MyTabBarPage> with SingleTickerProviderStateMixin {
+class MyTabBarPageState extends State<OldWhatsappTabbar> with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   @override
