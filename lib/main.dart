@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:seventh_tabbar_part_three/Tabbar1/tabbar_one.dart';
 import 'package:seventh_tabbar_part_three/Tabbar2/tabbar_two.dart';
+import 'package:seventh_tabbar_part_three/Tabbar3/old_WhatsApp_Tabbar.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // useMaterial3: true,
       ),
-
+   // Use Class name for Tabbars
   home: const TabbarTwo()
 );
   }
